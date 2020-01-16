@@ -1,0 +1,186 @@
+[Mon Jan 06 19:02:40.604444 2020] [ssl:warn] [pid 5664:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:02:40.714599 2020] [ssl:warn] [pid 5664:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:02:40.792677 2020] [mpm_winnt:notice] [pid 5664:tid 356] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 19:02:40.792677 2020] [mpm_winnt:notice] [pid 5664:tid 356] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 19:02:40.792677 2020] [core:notice] [pid 5664:tid 356] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 19:02:40.795680 2020] [mpm_winnt:notice] [pid 5664:tid 356] AH00418: Parent: Created child process 1104
+[Mon Jan 06 19:02:41.441136 2020] [ssl:warn] [pid 1104:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:02:41.528169 2020] [ssl:warn] [pid 1104:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:02:41.600219 2020] [mpm_winnt:notice] [pid 1104:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 19:23:02.438122 2020] [mpm_winnt:crit] [pid 1104:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 19:24:09.186740 2020] [ssl:warn] [pid 4952:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:24:09.290792 2020] [core:warn] [pid 4952:tid 364] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 19:24:09.296796 2020] [ssl:warn] [pid 4952:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:24:09.364844 2020] [mpm_winnt:notice] [pid 4952:tid 364] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 19:24:09.364844 2020] [mpm_winnt:notice] [pid 4952:tid 364] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 19:24:09.364844 2020] [core:notice] [pid 4952:tid 364] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 19:24:09.366846 2020] [mpm_winnt:notice] [pid 4952:tid 364] AH00418: Parent: Created child process 10580
+[Mon Jan 06 19:24:10.017617 2020] [ssl:warn] [pid 10580:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:24:10.105784 2020] [ssl:warn] [pid 10580:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:24:10.174859 2020] [mpm_winnt:notice] [pid 10580:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 19:24:45.114162 2020] [core:error] [pid 10580:tid 1660] (20024)The given path is misformatted or contained invalid characters: [client ::1:19699] AH00127: Cannot map GET /:8000/assets/787a8051/css/bootstrap.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.115112 2020] [core:error] [pid 10580:tid 1668] (20024)The given path is misformatted or contained invalid characters: [client ::1:19700] AH00127: Cannot map GET /:8000/css/site.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.122116 2020] [core:error] [pid 10580:tid 1656] (20024)The given path is misformatted or contained invalid characters: [client ::1:19701] AH00127: Cannot map GET /:8000/assets/e87f6ccb/jquery.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.124147 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/3070606b/yii.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.126119 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/3070606b/yii.validation.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.127119 2020] [core:error] [pid 10580:tid 1644] (20024)The given path is misformatted or contained invalid characters: [client ::1:19704] AH00127: Cannot map GET /:8000/assets/3070606b/yii.activeForm.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.132130 2020] [core:error] [pid 10580:tid 1660] (20024)The given path is misformatted or contained invalid characters: [client ::1:19699] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.147134 2020] [core:error] [pid 10580:tid 1656] (20024)The given path is misformatted or contained invalid characters: [client ::1:19701] AH00127: Cannot map GET /:8000/debug/default/toolbar?tag=5e135844eb143 HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:45.204201 2020] [core:error] [pid 10580:tid 1656] (20024)The given path is misformatted or contained invalid characters: [client ::1:19701] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.822739 2020] [core:error] [pid 10580:tid 1656] (20024)The given path is misformatted or contained invalid characters: [client ::1:19701] AH00127: Cannot map GET /:8000/assets/787a8051/css/bootstrap.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.823739 2020] [core:error] [pid 10580:tid 1644] (20024)The given path is misformatted or contained invalid characters: [client ::1:19704] AH00127: Cannot map GET /:8000/css/site.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.828743 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/e87f6ccb/jquery.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.830744 2020] [core:error] [pid 10580:tid 1660] (20024)The given path is misformatted or contained invalid characters: [client ::1:19699] AH00127: Cannot map GET /:8000/assets/3070606b/yii.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.831744 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/3070606b/yii.validation.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.832745 2020] [core:error] [pid 10580:tid 1668] (20024)The given path is misformatted or contained invalid characters: [client ::1:19700] AH00127: Cannot map GET /:8000/assets/3070606b/yii.activeForm.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.840751 2020] [core:error] [pid 10580:tid 1644] (20024)The given path is misformatted or contained invalid characters: [client ::1:19704] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.853760 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/debug/default/toolbar?tag=5e135846a26f6 HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.874779 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/3070606b/yii.validation.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.889790 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/3070606b/yii.activeForm.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:46.935823 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.811352 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/787a8051/css/bootstrap.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.813347 2020] [core:error] [pid 10580:tid 1644] (20024)The given path is misformatted or contained invalid characters: [client ::1:19704] AH00127: Cannot map GET /:8000/css/site.css HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.813347 2020] [core:error] [pid 10580:tid 1660] (20024)The given path is misformatted or contained invalid characters: [client ::1:19699] AH00127: Cannot map GET /:8000/assets/e87f6ccb/jquery.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.815348 2020] [core:error] [pid 10580:tid 1668] (20024)The given path is misformatted or contained invalid characters: [client ::1:19700] AH00127: Cannot map GET /:8000/assets/3070606b/yii.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.816349 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/3070606b/yii.validation.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.817356 2020] [core:error] [pid 10580:tid 1656] (20024)The given path is misformatted or contained invalid characters: [client ::1:19701] AH00127: Cannot map GET /:8000/assets/3070606b/yii.activeForm.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.825355 2020] [core:error] [pid 10580:tid 1652] (20024)The given path is misformatted or contained invalid characters: [client ::1:19702] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.840369 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/debug/default/toolbar?tag=5e135848a0e5b HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.856388 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/3070606b/yii.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.870391 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/3070606b/yii.validation.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.884396 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/3070606b/yii.activeForm.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:48.897405 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/assets/787a8051/js/bootstrap.js HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:24:50.867164 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19703] AH00127: Cannot map GET /:8000/site/about HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:25:35.305895 2020] [core:error] [pid 10580:tid 1648] (20024)The given path is misformatted or contained invalid characters: [client ::1:19713] AH00127: Cannot map GET /:8000/site/about HTTP/1.1 to file, referer: http://localhost:8000/
+[Mon Jan 06 19:55:35.215072 2020] [mpm_winnt:crit] [pid 10580:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 19:55:36.677297 2020] [ssl:warn] [pid 5580:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:55:36.761385 2020] [core:warn] [pid 5580:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 19:55:36.767389 2020] [ssl:warn] [pid 5580:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:55:36.837415 2020] [mpm_winnt:notice] [pid 5580:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 19:55:36.837415 2020] [mpm_winnt:notice] [pid 5580:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 19:55:36.837415 2020] [core:notice] [pid 5580:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 19:55:36.840417 2020] [mpm_winnt:notice] [pid 5580:tid 360] AH00418: Parent: Created child process 6260
+[Mon Jan 06 19:55:37.487898 2020] [ssl:warn] [pid 6260:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:55:37.576246 2020] [ssl:warn] [pid 6260:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:55:37.647297 2020] [mpm_winnt:notice] [pid 6260:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 19:58:29.948547 2020] [mpm_winnt:crit] [pid 6260:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 19:58:31.673137 2020] [ssl:warn] [pid 9580:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:58:31.786217 2020] [core:warn] [pid 9580:tid 356] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 19:58:31.792221 2020] [ssl:warn] [pid 9580:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:58:31.870249 2020] [mpm_winnt:notice] [pid 9580:tid 356] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 19:58:31.870249 2020] [mpm_winnt:notice] [pid 9580:tid 356] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 19:58:31.870249 2020] [core:notice] [pid 9580:tid 356] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 19:58:31.873250 2020] [mpm_winnt:notice] [pid 9580:tid 356] AH00418: Parent: Created child process 9568
+[Mon Jan 06 19:58:32.502693 2020] [ssl:warn] [pid 9568:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:58:32.611009 2020] [ssl:warn] [pid 9568:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 19:58:32.692046 2020] [mpm_winnt:notice] [pid 9568:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 20:00:31.659012 2020] [mpm_winnt:crit] [pid 9568:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 20:00:43.406732 2020] [ssl:warn] [pid 8584:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:00:43.479786 2020] [core:warn] [pid 8584:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 20:00:43.485788 2020] [ssl:warn] [pid 8584:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:00:43.553836 2020] [mpm_winnt:notice] [pid 8584:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 20:00:43.553836 2020] [mpm_winnt:notice] [pid 8584:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 20:00:43.553836 2020] [core:notice] [pid 8584:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 20:00:43.556838 2020] [mpm_winnt:notice] [pid 8584:tid 360] AH00418: Parent: Created child process 6176
+[Mon Jan 06 20:00:44.185282 2020] [ssl:warn] [pid 6176:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:00:44.265338 2020] [ssl:warn] [pid 6176:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:00:44.338398 2020] [mpm_winnt:notice] [pid 6176:tid 368] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 20:00:56.988027 2020] [mpm_winnt:crit] [pid 6176:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 20:01:11.339660 2020] [ssl:warn] [pid 11128:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:01:11.448970 2020] [core:warn] [pid 11128:tid 356] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 20:01:11.454974 2020] [ssl:warn] [pid 11128:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:01:11.527021 2020] [mpm_winnt:notice] [pid 11128:tid 356] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 20:01:11.527021 2020] [mpm_winnt:notice] [pid 11128:tid 356] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 20:01:11.527021 2020] [core:notice] [pid 11128:tid 356] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 20:01:11.529014 2020] [mpm_winnt:notice] [pid 11128:tid 356] AH00418: Parent: Created child process 10004
+[Mon Jan 06 20:01:12.164453 2020] [ssl:warn] [pid 10004:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:01:12.263517 2020] [ssl:warn] [pid 10004:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:01:12.339570 2020] [mpm_winnt:notice] [pid 10004:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 20:01:42.252250 2020] [mpm_winnt:crit] [pid 10004:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 06 20:02:04.332465 2020] [ssl:warn] [pid 8748:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:02:04.428534 2020] [core:warn] [pid 8748:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 20:02:04.434537 2020] [ssl:warn] [pid 8748:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:02:04.511567 2020] [mpm_winnt:notice] [pid 8748:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 06 20:02:04.511567 2020] [mpm_winnt:notice] [pid 8748:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 06 20:02:04.511567 2020] [core:notice] [pid 8748:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 06 20:02:04.514587 2020] [mpm_winnt:notice] [pid 8748:tid 360] AH00418: Parent: Created child process 2076
+[Mon Jan 06 20:02:05.178062 2020] [ssl:warn] [pid 2076:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:02:05.276131 2020] [ssl:warn] [pid 2076:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 20:02:05.351183 2020] [mpm_winnt:notice] [pid 2076:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 06 20:55:46.196727 2020] [mpm_winnt:crit] [pid 2076:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 07 11:25:04.336305 2020] [ssl:warn] [pid 6024:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 07 11:25:04.427304 2020] [core:warn] [pid 6024:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 07 11:25:04.433303 2020] [ssl:warn] [pid 6024:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 07 11:25:04.507356 2020] [mpm_winnt:notice] [pid 6024:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Tue Jan 07 11:25:04.507356 2020] [mpm_winnt:notice] [pid 6024:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jan 07 11:25:04.507356 2020] [core:notice] [pid 6024:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jan 07 11:25:04.510359 2020] [mpm_winnt:notice] [pid 6024:tid 360] AH00418: Parent: Created child process 6032
+[Tue Jan 07 11:25:05.121762 2020] [ssl:warn] [pid 6032:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 07 11:25:05.208987 2020] [ssl:warn] [pid 6032:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 07 11:25:05.275034 2020] [mpm_winnt:notice] [pid 6032:tid 364] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 07 11:25:10.997897 2020] [mpm_winnt:crit] [pid 6032:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jan 12 23:10:56.228751 2020] [ssl:warn] [pid 4572:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 12 23:10:56.328820 2020] [core:warn] [pid 4572:tid 356] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 12 23:10:56.334824 2020] [ssl:warn] [pid 4572:tid 356] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 12 23:10:56.413879 2020] [mpm_winnt:notice] [pid 4572:tid 356] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Jan 12 23:10:56.413879 2020] [mpm_winnt:notice] [pid 4572:tid 356] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jan 12 23:10:56.413879 2020] [core:notice] [pid 4572:tid 356] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jan 12 23:10:56.415880 2020] [mpm_winnt:notice] [pid 4572:tid 356] AH00418: Parent: Created child process 7404
+[Sun Jan 12 23:10:57.051330 2020] [ssl:warn] [pid 7404:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 12 23:10:57.132358 2020] [ssl:warn] [pid 7404:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 12 23:10:57.205425 2020] [mpm_winnt:notice] [pid 7404:tid 364] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 12 23:17:16.228022 2020] [mpm_winnt:crit] [pid 7404:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 13 14:13:56.141200 2020] [ssl:warn] [pid 1148:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 14:13:56.238319 2020] [core:warn] [pid 1148:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 13 14:13:56.244323 2020] [ssl:warn] [pid 1148:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 14:13:56.321378 2020] [mpm_winnt:notice] [pid 1148:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 13 14:13:56.321378 2020] [mpm_winnt:notice] [pid 1148:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 13 14:13:56.321378 2020] [core:notice] [pid 1148:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 13 14:13:56.323380 2020] [mpm_winnt:notice] [pid 1148:tid 360] AH00418: Parent: Created child process 1048
+[Mon Jan 13 14:13:56.987629 2020] [ssl:warn] [pid 1048:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 14:13:57.105861 2020] [ssl:warn] [pid 1048:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 14:13:57.175909 2020] [mpm_winnt:notice] [pid 1048:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 13 14:28:57.155845 2020] [php7:notice] [pid 1048:tid 1656] [client ::1:50340] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 64, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 14:28:57.156865 2020] [php7:notice] [pid 1048:tid 1656] [client ::1:50340] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 84, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 15:07:11.514949 2020] [mpm_winnt:crit] [pid 1048:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 13 20:56:03.598959 2020] [ssl:warn] [pid 6248:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 20:56:03.701935 2020] [core:warn] [pid 6248:tid 372] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 13 20:56:03.707939 2020] [ssl:warn] [pid 6248:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 20:56:03.781991 2020] [mpm_winnt:notice] [pid 6248:tid 372] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 13 20:56:03.781991 2020] [mpm_winnt:notice] [pid 6248:tid 372] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 13 20:56:03.781991 2020] [core:notice] [pid 6248:tid 372] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 13 20:56:03.783993 2020] [mpm_winnt:notice] [pid 6248:tid 372] AH00418: Parent: Created child process 7688
+[Mon Jan 13 20:56:04.430478 2020] [ssl:warn] [pid 7688:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 20:56:04.538527 2020] [ssl:warn] [pid 7688:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 20:56:04.614580 2020] [mpm_winnt:notice] [pid 7688:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 13 21:11:23.188274 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50758] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 64, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:11:23.189298 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50758] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 84, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:11:31.918271 2020] [php7:notice] [pid 7688:tid 1672] [client ::1:50771] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 64, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:11:31.918271 2020] [php7:notice] [pid 7688:tid 1672] [client ::1:50771] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 84, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:11:45.984761 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50776] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 64, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:11:45.985763 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50776] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 84, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:13:47.885162 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50821] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 64, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:13:47.886191 2020] [php7:notice] [pid 7688:tid 1660] [client ::1:50821] PHP Notice:  Trying to get property 'name' of non-object in C:\\xampp\\htdocs\\backend\\views\\layouts\\header.php on line 84, referer: http://localhost:8000/admin/site/login
+[Mon Jan 13 21:45:51.259450 2020] [mpm_winnt:crit] [pid 7688:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 13 21:45:54.673818 2020] [ssl:warn] [pid 1496:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 21:45:54.749899 2020] [core:warn] [pid 1496:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 13 21:45:54.755901 2020] [ssl:warn] [pid 1496:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 21:45:54.839960 2020] [mpm_winnt:notice] [pid 1496:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Jan 13 21:45:54.839960 2020] [mpm_winnt:notice] [pid 1496:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jan 13 21:45:54.839960 2020] [core:notice] [pid 1496:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jan 13 21:45:54.842959 2020] [mpm_winnt:notice] [pid 1496:tid 360] AH00418: Parent: Created child process 8508
+[Mon Jan 13 21:45:55.466400 2020] [ssl:warn] [pid 8508:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 21:45:55.542453 2020] [ssl:warn] [pid 8508:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 13 21:45:55.623511 2020] [mpm_winnt:notice] [pid 8508:tid 364] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 13 21:46:00.659317 2020] [mpm_winnt:crit] [pid 8508:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 14 09:41:15.689807 2020] [ssl:warn] [pid 7800:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 14 09:41:15.802887 2020] [core:warn] [pid 7800:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 14 09:41:15.822901 2020] [ssl:warn] [pid 7800:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 14 09:41:15.859927 2020] [mpm_winnt:notice] [pid 7800:tid 360] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Tue Jan 14 09:41:15.859927 2020] [mpm_winnt:notice] [pid 7800:tid 360] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jan 14 09:41:15.859927 2020] [core:notice] [pid 7800:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jan 14 09:41:15.860928 2020] [mpm_winnt:notice] [pid 7800:tid 360] AH00418: Parent: Created child process 7620
+[Tue Jan 14 09:41:16.202187 2020] [ssl:warn] [pid 7620:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 14 09:41:16.355295 2020] [ssl:warn] [pid 7620:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 14 09:41:16.390302 2020] [mpm_winnt:notice] [pid 7620:tid 364] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 14 10:41:39.170406 2020] [mpm_winnt:crit] [pid 7620:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
